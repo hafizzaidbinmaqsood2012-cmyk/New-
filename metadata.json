@@ -1,0 +1,6 @@
+{
+  "name": "AVENDORA - Haute Parfumerie",
+  "description": "A luxury perfume e-commerce flagship for AVENDORA, featuring fine Oud, Musk, Floral, and Woody fragrance collections with seamless checkout in PKR and a sophisticated deep blue and white palette.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

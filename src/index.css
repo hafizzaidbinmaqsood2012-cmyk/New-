@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Cinzel', 'Playfair Display', serif;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFFFFF;
+    color: #111111;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom refined luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9D2D2;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0F2C59;
+}
+
+/* Premium Navy Blue and White luxury styling utilities */
+.navy-accent {
+  color: #0F2C59;
+}
+
+.bg-navy-accent {
+  background-color: #0F2C59;
+}
+
+.bg-navy-subtle {
+  background-color: #F0F4F8;
+}
+
+.border-navy-accent {
+  border-color: #0F2C59;
+}
+
+.border-navy-subtle {
+  border-color: #D8E2ED;
+}
+
+.btn-primary {
+  background-color: #0F2C59;
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0A1E3F;
+}
+
+.btn-outline {
+  border: 1px solid #0F2C59;
+  color: #0F2C59;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline:hover {
+  background-color: #0F2C59;
+  color: #FFFFFF;
+}
